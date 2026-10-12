@@ -1,0 +1,9 @@
+.features { display: grid; grid-template-columns: repeat(3, 1fr); gap: 18px; }
+.features .feature-card { padding: 26px; background: #ffffff; border: 1px solid #e0e9ed; border-radius: 14px; box-shadow: 0 6px 20px rgba(0, 0, 0, 0.04); transition: transform 0.2s; }
+.features .feature-card:hover { transform: translateY(-5px); }
+.features .feature-card h3 { margin: 14px 0 10px; }
+.features .feature-card p { line-height: 1.6; color: #526574; }
+.feature-number { color: #0f766e; font-size: 28px; font-weight: bold; }
+@media (max-width: 768px) {
+  .features { grid-template-columns: 1fr; }
+}
